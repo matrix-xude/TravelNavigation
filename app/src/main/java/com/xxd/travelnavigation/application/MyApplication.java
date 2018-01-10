@@ -28,7 +28,7 @@ public class MyApplication extends ActivityManagerApplication {
 
         // 初始化logger类,配置可以定制自己想要的log
         FormatStrategy formatStrategy = PrettyFormatStrategy.newBuilder()
-                .showThreadInfo(false)  // (Optional) Whether to show thread info or not. Default true
+                .showThreadInfo(true)  // (Optional) Whether to show thread info or not. Default true
                 .methodCount(2)         // (Optional) How many method line to show. Default 2
                 .methodOffset(0)        // (Optional) Hides internal method calls up to offset. Default 5
                 //.logStrategy(customLog) // (Optional) Changes the log strategy to print out. Default LogCat
