@@ -26,7 +26,7 @@ public class MainActivity extends CommonActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_common_title);
 
         toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("高级标题");
